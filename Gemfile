@@ -1,0 +1,12 @@
+source 'https:/rubygems.org/'
+
+gem 'appium_console'
+gem 'appium_lib'
+gem 'cucumber'
+gem 'cpf_faker'
+gem 'faker'
+gem 'pry'
+gem 'pry-nav'
+gem 'rspec'
+gem 'report_builder'
+gem 'rubocop'
