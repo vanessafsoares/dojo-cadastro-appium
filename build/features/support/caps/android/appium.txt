@@ -1,0 +1,14 @@
+[caps]
+platformName = "Android"
+deviceName = "SM_G973F"
+udid = 'RQ8NA0DJAWH'
+platformVersion = '8.1'
+app  = './app/android/cadastro_clientes_teste.apk'
+autoGrantPermissions = "true"
+appActivity = "com.picpay.features.enter.PicPayEnterActivity"
+appPackage = "com.picpay.debug"
+automationName = "uiautomator2"
+unicodeKeyboard = "true"
+resetKeyboard = "true"
+wdaLocalPort = "8100"
+appWaitDuration = "2000"
