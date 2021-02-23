@@ -1,6 +1,7 @@
 # App files
 /files/ios/*.ipa
 /files/android/*.apk
+/build/log
 
 # macOS
 .DS_Store

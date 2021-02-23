@@ -1,11 +1,11 @@
 require_relative 'android_screens'
 
 class AndroidScreens
-  attr_reader :home
+  attr_accessor :home, :register
   
   def initialize
-    @home = Home::Android.new
-    @cadastro = Cadastro::Android.new
+    @home = Android::Home.new
+    @register = Android::Register.new
   end
 end
 

@@ -6,7 +6,7 @@ Before do
     driver.start_driver
     driver.manage.timeouts.implicit_wait = 10
     
-    @screen = AndroidScreens.new
+    @screens = AndroidScreens.new
 end
 
 After do
