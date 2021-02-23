@@ -1,0 +1,9 @@
+# App files
+/files/ios/*.ipa
+/files/android/*.apk
+
+# macOS
+.DS_Store
+
+# Depencency file
+Gemfile.lock

@@ -1,14 +1,12 @@
 [caps]
 platformName = "Android"
-deviceName = "SM_G973F"
-udid = 'RQ8NA0DJAWH'
-platformVersion = '8.1'
-app  = './app/android/cadastro_clientes_teste.apk'
+deviceName = "PIXEL_2_API_30"
+apk = '/Users/joao.hilario/Documents/picpay/dojo-cadastro-pf-pj/build/app/android/cadastro_clientes_teste.apk'
 autoGrantPermissions = "true"
-appActivity = "com.picpay.features.enter.PicPayEnterActivity"
-appPackage = "com.picpay.debug"
-automationName = "uiautomator2"
+appActivity = "br.com.dudstecnologia.cadastrodeclientes.MainClientes"
+appPackage = "br.com.dudstecnologia.cadastrodeclientes"
 unicodeKeyboard = "true"
 resetKeyboard = "true"
 wdaLocalPort = "8100"
+skipServerInstallation = "true"
 appWaitDuration = "2000"

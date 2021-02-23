@@ -1,6 +1,7 @@
 require 'appium_lib'
 require 'appium_console'
 
+Dir.mkdir('log') unless File.exist?('log')
 
 DEVICE = ENV['DEVICE_TYPE']
 

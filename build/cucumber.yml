@@ -1,0 +1,4 @@
+default: -p json -p android
+android: -p json DEVICE_TYPE=android
+ios: -p json DEVICE_TYPE=ios
+json: -f json -o log/report.json -f pretty
