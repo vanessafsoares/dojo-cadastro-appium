@@ -1,1 +1,0 @@
-# dojo-cadastro-appium
