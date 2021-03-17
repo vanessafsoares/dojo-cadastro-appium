@@ -34,6 +34,7 @@ module Android
     end
 
     def complete_register
+      complete_register
     end
   end
 end
